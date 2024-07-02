@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .main-header {
+            background-color: #007bff;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .content-section {
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Responsivo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Header -->
+<header class="main-header">
+    <div class="container">
+        <h1 class="display-4">Bem-vindo ao Design Responsivo</h1>
+        <p class="lead">Este é um exemplo de uma página responsiva usando Bootstrap.</p>
+    </div>
+</header>
+
+<!-- Content Section -->
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="Imagem de Exemplo">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do Card</h4>
+                        <p class="card-text">Algum texto rápido para construir o título do card e preencher o conteúdo do card.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repetir outros cards conforme necessário -->
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+        <small>Copyright &copy; Seu Site 2024</small>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
